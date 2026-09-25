@@ -34,7 +34,7 @@ public class COSC113 extends Course {
         this.i1 = null;
         this.students = null;
     }
-    //Setters and Getters - Lab Work
+    //Setters and Getters - Lab Work Q2
 
     public Instructor getI1() {
         return i1;
@@ -71,7 +71,7 @@ public class COSC113 extends Course {
     //Method Overriding: Making a method with the same method signature from the parent class
     @Override
     public void Display_Course_Information(){
-        //Lab work - use super.attribute_Name inside a print statement
+        //Lab work - use super.attribute_Name inside a print statement (Q4)
         super.Display_Course_Information();
         IO.println(super.name);
         IO.println("Syllabus: " + this.syllabus + "Language" + this.Programming_Language +

@@ -1,8 +1,9 @@
 public class Course {
 
     String name;
-    int course_number;
-    int credit;
+     int course_number;
+
+     int credit;
 
     private String classroom;
 
@@ -20,13 +21,36 @@ public class Course {
         this.name = name;
     }
 
-    //getter and setter
+    //getter and setter Lab work Q3
     public void Set_Classroom(String classroom){
         this.classroom = classroom;
     }
 
     public String get_classroom(){
         return this.classroom;
+    }
+    public int getCredit() {
+        return credit;
+    }
+
+    public void setCredit(int credit) {
+        this.credit = credit;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getCourse_number() {
+        return course_number;
+    }
+
+    public void setCourse_number(int course_number) {
+        this.course_number = course_number;
     }
 
     public void Display_Course_Information(){

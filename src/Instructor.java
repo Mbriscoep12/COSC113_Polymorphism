@@ -6,6 +6,16 @@ public class Instructor extends BSU_Member {
         this.status = "Faculty";
     }
 
+    Instructor(String Dept, String status){
+        this.Dept =Dept;
+        this.status = status;
+    }
+
+    Instructor(String status){
+        this.status = status;
+    }
+
+
     //Create a display method
 
     public void DisplayInfo(){
